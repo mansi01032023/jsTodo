@@ -67,7 +67,7 @@ function completedTaskRevert(id) {
     let delid = id.charAt(1);
     delid *= 1;
     todo.push(completed[delid]);
-    deleteItemFromCompleted("deletec"+delid);
+    deleteItemFromCompleted("deletec" + delid);
     displayTodo();
 }
 // function to delete item from completed tasks
